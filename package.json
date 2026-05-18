@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-  "node": "18.x"
+    "node": "24.x"
   },
   "proxy": "http://localhost:8000",
   "dependencies": {
@@ -23,7 +23,6 @@
     "react-hook-form": "^7.72.0",
     "react-icons": "^5.6.0",
     "react-router-dom": "^7.13.2",
-    "react-scripts": "5.0.1",
     "react-timeago": "^8.3.0",
     "react-toastify": "^11.0.5",
     "socket.io-client": "^4.8.3",
@@ -55,8 +54,10 @@
     ]
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
     "autoprefixer": "^10.4.27",
     "postcss": "^8.5.8",
-    "tailwindcss": "^3.4.19"
+    "tailwindcss": "^3.4.19",
+    "vite": "^8.0.13"
   }
 }
